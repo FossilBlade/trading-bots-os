@@ -1,5 +1,2 @@
-# Support My Work
-[Trading Bots For Various Platforms](https://buymeacoffee.com/fossilblade
-)
+# [Support My Work](https://buymeacoffee.com/fossilblade)
 
-# 
