@@ -1,2 +1,5 @@
-# trading-bots-os
-Trading Bots For Various Platforms
+# Support My Work
+[Trading Bots For Various Platforms](https://buymeacoffee.com/fossilblade
+)
+
+# 
