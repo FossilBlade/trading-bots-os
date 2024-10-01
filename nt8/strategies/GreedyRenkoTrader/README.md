@@ -30,12 +30,12 @@ THis uses a special Colore Coded Williams Alligator Indicator developed by me.
   # Options
 
   1. With the default settings, the strategy work with 1 contract only.
-  2. If you want to work with runner, the strategy is hard coded to make use of 2 contracts. (Further improvements will be made to make it configurable in future)
+  2. RUNNER CONFIGURATION: If you want to work with runner, the strategy is hard coded to make use of 2 contracts. (Further improvements will be made to make it configurable in future)
      - When enabling the strategy, change the "Entries per direction" to 2.
      - Check the "BreakEven" Parameter.
      - Set BreakEvenTrigger to "TakeProfitTicks+1".
      - Set the BreakEvenTicksOffset to 0. (or to a value to cover the commions).
-     - The strategies automatically set the runner TP to 3 times the TakeProfitTicks.
+     - The strategy automatically set the runner TP to 3 times the TakeProfitTicks.
 
 # Support Me
 If you like my work or would like to develop this further please support me by buying me a coffee (donation)
