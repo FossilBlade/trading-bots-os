@@ -2,7 +2,7 @@
 This strategy works on Uni Renko Bars and Williams Alligator.
 
 ## Installation
-- Download the app or add-on file to your desktop
+- Download the bot zip file to your desktop
 - From the NinjaTrader Control Center window, select the menu Tools > Import > NinjaScript Add-On…
 - Select the downloaded file from your desktop
 
