@@ -1,6 +1,11 @@
 # NT8 Greedy Renko Trader
 This strategy works on Uni Renko Bars and Williams Alligator.
 
+## Installation
+- Download the app or add-on file to your desktop
+- From the NinjaTrader Control Center window, select the menu Tools > Import > NinjaScript Add-On…
+- Select the downloaded file from your desktop
+
 ## Setup
 - Install UniRenko for NT8: https://ninjatraderecosystem.com/user-app-share-download/unirenko-universal-renko-bartype-8/
 - Tests have been performed on Renko Chart for NQ UniRenko Setting: 12/24/48
@@ -33,7 +38,8 @@ THis uses a special Colore Coded Williams Alligator Indicator developed by me.
      - The strategies automatically set the runner TP to 3 times the TakeProfitTicks.
 
 # Support Me
-If you like my work or would like to develop this further please support me by buying me a coffee (donation): https://buymeacoffee.com/fossilblade
+If you like my work or would like to develop this further please support me by buying me a coffee (donation)
+<a href="https://www.buymeacoffee.com/fossilblade" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 # Disclosure 
 Futures and forex trading contains substantial risk and is not for every investor. An investor could potentially lose all or more than the initial investment. Risk capital is money that can be lost without jeopardizing ones’ financial security or lifestyle. Only risk capital should be used for trading and only those with sufficient risk capital should consider trading. Past performance is not necessarily indicative of future results. Hypothetical performance results have many inherent limitations, some of which are described below. 
