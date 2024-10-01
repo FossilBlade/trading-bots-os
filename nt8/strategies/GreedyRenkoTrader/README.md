@@ -39,6 +39,7 @@ THis uses a special Colore Coded Williams Alligator Indicator developed by me.
 
 # Support Me
 If you like my work or would like to develop this further please support me by buying me a coffee (donation)
+
 <a href="https://www.buymeacoffee.com/fossilblade" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 # Disclosure 
