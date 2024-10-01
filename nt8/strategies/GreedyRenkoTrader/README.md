@@ -1,10 +1,9 @@
-# Greedy Renko Trader
+# NT8 Greedy Renko Trader
 This strategy works on Uni Renko Bars and Williams Alligator.
 
 ## Setup
 - Install UniRenko for NT8: https://ninjatraderecosystem.com/user-app-share-download/unirenko-universal-renko-bartype-8/
 - Tests have been performed on Renko Chart for NQ UniRenko Setting: 12/24/48
-
 
 ## Strategy
 Takes a postion whenever the alligator is waking up (White Background) and MACD is outside of the BB.
