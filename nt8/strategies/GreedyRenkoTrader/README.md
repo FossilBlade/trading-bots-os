@@ -28,4 +28,6 @@ THis uses a special Colore Coded Williams Alligator Indicator developed by me.
      - Set the BreakEvenTicksOffset to 0. (or to a value to cover the commions).
      - The strategies automatically set the runner TP to 3 times the TakeProfitTicks.
 
-     
+# Support Me
+If you like my work or would like to develop this further please support me by buying me a coffee (donation): https://buymeacoffee.com/fossilblade
+
