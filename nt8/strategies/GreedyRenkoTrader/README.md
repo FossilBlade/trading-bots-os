@@ -8,15 +8,15 @@ THis uses a special Colore Coded Williams Alligator Indicator developed by me.
 ## Paramemters
 
 - ATM Parameters
-  -- Take Profit Ticks: Take Profit Ticks Value
-  -- StopLossTicks: Stop Loss Ticks Value
-  -- Break Even: Check to perform break even functionality
-  -- BreakEvenTigger: Profit Ticks whichs triggers the breakeven.
-  -- BreakEvenTicksOffset: Ticks to offset fromt eh breakeven price.
+  - Take Profit Ticks: Take Profit Ticks Value
+  - StopLossTicks: Stop Loss Ticks Value
+  - Break Even: Check to perform break even functionality
+  - BreakEvenTigger: Profit Ticks whichs triggers the breakeven.
+  - BreakEvenTicksOffset: Ticks to offset fromt eh breakeven price.
 - Portfolio Mgmt
-  -- MaxDayProfit: Max day profit after which the strategy will suspend for the session/untill restarted. This is for this strategy, not at the account level.
-  -- MaxDayKLoss: Max day loss after which the strategy will suspend for the session/untill restarted. This is for this strategy, not at the account level.
-  -- DayTradeCount:  Max trades after which the strategy will suspend for the session/untill restarted. This is for this strategy, not at the account level. 
+  - MaxDayProfit: Max day profit after which the strategy will suspend for the session/untill restarted. This is for this strategy, not at the account level.
+  - MaxDayKLoss: Max day loss after which the strategy will suspend for the session/untill restarted. This is for this strategy, not at the account level.
+  - DayTradeCount:  Max trades after which the strategy will suspend for the session/untill restarted. This is for this strategy, not at the account level. 
 
   # Options
 
