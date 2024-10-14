@@ -30,7 +30,7 @@ This uses a special Colore Coded Williams Alligator Indicator developed by me.
   - **MaxSessionLoss**: Max day loss after which the strategy will suspend for the session/untill restarted. This is for this strategy, not at the account level.
   - **SessionTradeCount**:  Max trades after which the strategy will suspend for the session/untill restarted. This is for this strategy, not at the account level.
 -**Bot Settings**
-  - **BotActiveTime**: Comma separated time range (in local time) for the bot to be active for trading. eg 0300-0730,1330-1500,2030-2200
+  - **BotActiveTime**: Comma separated time range (in local time, HHMM format) for the bot to be active for trading. eg 0300-0730,1330-1500,2030-2200
     To run it all the time leave it blank or put *. If range is going over mid night split the range eg for 2100-0300 use 2100-2359,0000-0300
 
   # Options
