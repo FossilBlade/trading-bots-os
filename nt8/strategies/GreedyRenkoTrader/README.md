@@ -42,6 +42,10 @@ If you like my work or would like to develop this further please support me by b
 
 <a href="https://www.buymeacoffee.com/fossilblade" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
+# Join the Community on Discord
+To discuss this bot and other trading ideas and develop algos and bots join my discord
+https://discord.gg/jyBHggxHxv
+
 # Disclosure 
 Futures and forex trading contains substantial risk and is not for every investor. An investor could potentially lose all or more than the initial investment. Risk capital is money that can be lost without jeopardizing ones’ financial security or lifestyle. Only risk capital should be used for trading and only those with sufficient risk capital should consider trading. Past performance is not necessarily indicative of future results. Hypothetical performance results have many inherent limitations, some of which are described below. 
 
