@@ -1,6 +1,14 @@
 # NT8 Greedy Renko Trader
 This strategy works on Uni Renko Bars, Williams Alligator and MACD BB Indicator.
 
+# Support Me
+If you like my work or would like to develop this further please support me by buying me a coffee (donation)
+<a href="https://www.buymeacoffee.com/fossilblade" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+# Join the Community on Discord
+To discuss this bot and other trading ideas, develop algos and bots join my discord
+https://discord.gg/jyBHggxHxv
+
 ## Installation
 - Download the bot zip file to your desktop
 - From the NinjaTrader Control Center window, select the menu Tools > Import > NinjaScript Add-On…
@@ -37,15 +45,6 @@ This uses a special Colore Coded Williams Alligator Indicator developed by me.
   1. With the default settings, the strategy work with 1 contract only.
   2. RUNNER CONFIGURATION: Runner configuration has been removed from the latest version. Will add using NT8 ATM strategy directly in the future.
   3. If trading with more than one contract, change "Set Order Quantity" to "Default" and set the number of contracts.
-
-# Support Me
-If you like my work or would like to develop this further please support me by buying me a coffee (donation)
-
-<a href="https://www.buymeacoffee.com/fossilblade" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-
-# Join the Community on Discord
-To discuss this bot and other trading ideas and develop algos and bots join my discord
-https://discord.gg/jyBHggxHxv
 
 # **Disclaimer: Futures Trading & Automated Bot Usage**
 
