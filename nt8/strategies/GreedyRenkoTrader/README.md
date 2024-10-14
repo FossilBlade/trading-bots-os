@@ -1,5 +1,5 @@
 # NT8 Greedy Renko Trader
-This strategy works on Uni Renko Bars and Williams Alligator.
+This strategy works on Uni Renko Bars, Williams Alligator and MACD BB Indicator.
 
 ## Installation
 - Download the bot zip file to your desktop
@@ -9,33 +9,34 @@ This strategy works on Uni Renko Bars and Williams Alligator.
 ## Setup
 - Install UniRenko for NT8: https://ninjatraderecosystem.com/user-app-share-download/unirenko-universal-renko-bartype-8/
 - Tests have been performed on Renko Chart for NQ UniRenko Setting: 12/24/48
+- Default Settings have been tested.
 
 ## Strategy
-Takes a postion whenever the alligator is waking up (White Background) and MACD is outside of the BB.
-THis uses a special Colore Coded Williams Alligator Indicator developed by me.
+Takes a postion whenever the alligator is waking up (White Background) and MACD is outside of the BB. Additonla confluence with EMA50 and EMA200 is done.
+This uses a special Colore Coded Williams Alligator Indicator developed by me.
 
 ## Paramemters
 
-- ATM Parameters
-  - TakeProfitTicks: Take Profit Ticks Value
-  - StopLossTicks: Stop Loss Ticks Value
-  - BreakEven: Check to perform break even functionality
-  - BreakEvenTigger: Profit Ticks whichs triggers the breakeven.
-  - BreakEvenTicksOffset: Ticks to offset fromt eh breakeven price.
-- Portfolio Mgmt
-  - MaxDayProfit: Max day profit after which the strategy will suspend for the session/untill restarted. This is for this strategy, not at the account level.
-  - MaxDayKLoss: Max day loss after which the strategy will suspend for the session/untill restarted. This is for this strategy, not at the account level.
-  - DayTradeCount:  Max trades after which the strategy will suspend for the session/untill restarted. This is for this strategy, not at the account level. 
+- **ATM Parameters**
+  - **TakeProfitTicks**: Take Profit Ticks Value
+  - **StopLossTicks**: Stop Loss Ticks Value
+  - **BreakEven**: Check to perform break even functionality
+  - **BreakEvenTigger**: Profit Ticks whichs triggers the breakeven.
+  - **BreakEvenTicksOffset**: Ticks to offset from the breakeven price.
+  - **ExitOnLips**: If selected, the trade will exit once the price is below Alligator Lips. This will be enabled, only when breakeven has been setup.
+  - **TPStreakCount**: Number of Profit Trades (TP hit) before the timeout kicks in. Timeout is reset on gator waking again or MACD going between bands.
+- **Portfolio Mgmt**
+  - **MaxSessionProfit**: Max day profit after which the strategy will suspend for the session/untill restarted. This is for this strategy, not at the account level.
+  - **MaxSessionLoss**: Max day loss after which the strategy will suspend for the session/untill restarted. This is for this strategy, not at the account level.
+  - **SessionTradeCount**:  Max trades after which the strategy will suspend for the session/untill restarted. This is for this strategy, not at the account level.
+-**Bot Settings**
+  - **BotActiveTime**: Comma separated time range (in local time) for the bot to be active for trading. eg 0300-0730,1330-1500,2030-2200
+    To run it all the time leave it blank or put *. If range is going over mid night split the range eg for 2100-0300 use 2100-2359,0000-0300
 
   # Options
-
   1. With the default settings, the strategy work with 1 contract only.
-  2. RUNNER CONFIGURATION: If you want to work with runner, the strategy is hard coded to make use of 2 contracts. (Further improvements will be made to make it configurable in future)
-     - When enabling the strategy, change the "Entries per direction" to 2.
-     - Check the "BreakEven" Parameter.
-     - Set BreakEvenTrigger to "TakeProfitTicks+1".
-     - Set the BreakEvenTicksOffset to 0. (or to a value to cover the commions).
-     - The strategy automatically set the runner TP to 3 times the TakeProfitTicks.
+  2. RUNNER CONFIGURATION: Runner configuration has been removed from the latest version. Will add using NT8 ATM strategy directly in the future.
+  3. If trading with more than one contract, change "Set Order Quantity" to "Default" and set the number of contracts.
 
 # Support Me
 If you like my work or would like to develop this further please support me by buying me a coffee (donation)
@@ -62,4 +63,3 @@ We recommend consulting with a certified financial advisor before engaging in fu
 
 ### **Use at Your Own Risk** 🚨  
 By accessing and using this bot, you agree that you are fully aware of the risks involved in futures trading and automated trading. You accept full responsibility for any trading activity and outcomes related to the use of this tool.
-
