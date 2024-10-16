@@ -40,7 +40,8 @@ There are 2 variants of this bot:
   - **AccountLevelTracking**: Whether the profit/loss traking is at account level or bot session. Account level cannot be used in backtesting.
 -**Bot Settings**
   - **BotActiveTime**: Comma separated time range (in local time, HHMM format) for the bot to be active for trading. eg 0300-0730,1330-1500,2030-2200
-    To run it all the time leave it blank or put *. If range is going over mid night split the range eg for 2100-0300 use 2100-2359,0000-0300
+    To run it all the time leave it blank or put *. If range is going over mid night split the range eg for 2100-0300 use 2100-2359,0000-0300.
+    **Update the Bot Active time for your local timezone. The most profitable time is 7AM-5PM EDT/EST**
   - **PBCount**: Number of Pullback bars to consider. Range 1-3. Default set to 3.
   - **EMAConfluence**: Use EMA50 and EMA200 Confluence.
   - **NafRafVariant**: Use NafRaf Variant.
