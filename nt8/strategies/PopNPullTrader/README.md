@@ -17,7 +17,7 @@ https://discord.gg/jyBHggxHxv
 ## Setup
 - Use 1 min/2 min charts.
 - Tests have been performed for NQ 1 Min Chart.
-- Default Settings have been tested to be profitable.
+- Default Settings have been tested to be profitable.**Update the Bot Active time for your local timezone. The most profitable time is 7AM-5PM EDT/EST**
 
 ## Strategy
 Looks for Continuous Pop Candle (Higher High/Lower Low) and then Enters on Pullbacks. Additonal confluence with EMA50 and EMA200 is done.
@@ -37,6 +37,7 @@ There are 2 variants of this bot:
   - **MaxSessionProfit**: Max day profit after which the strategy will suspend for the session/untill restarted. This is for this strategy, not at the account level.
   - **MaxSessionLoss**: Max day loss after which the strategy will suspend for the session/untill restarted. This is for this strategy, not at the account level.
   - **SessionTradeCount**:  Max trades after which the strategy will suspend for the session/untill restarted. This is for this strategy, not at the account level.
+  - **AccountLevelTracking**: Whether the profit/loss traking is at account level or bot session. Account level cannot be used in backtesting.
 -**Bot Settings**
   - **BotActiveTime**: Comma separated time range (in local time, HHMM format) for the bot to be active for trading. eg 0300-0730,1330-1500,2030-2200
     To run it all the time leave it blank or put *. If range is going over mid night split the range eg for 2100-0300 use 2100-2359,0000-0300
